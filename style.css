@@ -1,49 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
-.heading h2{
-    font-family: 'Oswald',sans-serif;
-}
-
-.calc{
-    margin: auto;
-    background-color: #c0c0c0;
-    height: 330px;
-    width: 210px;
-    border-radius: 10px;
-}
-
-.calc .screen{
+body{
     
-    margin-left: 20px;
-    padding-top: 10px;
-    border-color: grey
-    border-style: hidden ;
+    background:linear-gradient(320deg,#ce3824,#c5d142,#125ba4)
+    
 }
-.calc .buttons{
+h2{
+    font-family: 'oswald';
+    color:#ce3824;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    margin-bottom: 20px;
+}
+.outline{
 
-    margin-top: 10px;
-    margin-left: 15px;
-    padding-top: 10px;
-    border-color: grey;
-    display: inline-block;
-    outline: 0;
+    background-color: #afcbd5;
+    margin-left: 250px;
+    width: 30vh;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rows{
+    
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.calcbtn{
+    background-color: #272838;
+    color: white;
+}
+.clear{ 
+    border-radius:5px ;
+    padding-right: 20px;
+    background-color: #815355;
+    color: #ffffff;
+
+}
+.rows button{
+    display: flex;
     border: 0;
-    border-style: hidden ;
-    cursor: pointer;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    transition: transform 200ms,background 200ms;
-    background: transparent;
-    color: #000000;
-    box-shadow: 0 0 0 3px #000000 inset;
+}
+.rows .symb{
+
+    display: flex;
+
+    border: 0;
+    border-radius: 90px;
+    background-color: #f2b418;
+    color: #ffffff;
 
 }
-.calc .buttons:hover{
-    transform: translateY(-2px);
-}
+
+
 
 
 
